@@ -83,7 +83,11 @@ function Filter() {
 
     // onClick for get chart
     const handleGetChart = (e: any) => {
+        e.preventDefault();
         console.log(retailer);
+        console.log(distributor);
+        console.log(market);
+        console.log(usage);
     };
 
     return (
